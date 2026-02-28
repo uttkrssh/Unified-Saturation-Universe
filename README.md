@@ -14,7 +14,7 @@ Superfluid Properties: The early universe plasma exhibits zero-viscosity flow.
 Density Saturation: A non-singular evolution of the scale factor by enforcing a maximum density threshold via quantum effects.
 BEC Analogy: Treating dark matter as a Bose-Einstein Condensate to explain the "core-cusp" problem in galactic centers.
 
-Installation & UsageTo run this modified version, you must have a C compiler and the standard CLASS dependencies installed.
+Installation & Usage: To run this modified version, you must have a C compiler and the standard CLASS dependencies installed.
 
 # Clone the repository
 git clone https://github.com/uttkrssh/Unified-Saturation-Universe.git
