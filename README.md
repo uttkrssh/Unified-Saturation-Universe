@@ -2,6 +2,7 @@ Unified Saturation Universe: A Quantum Fluid Approach🌌
 Overview 
 
 This repository contains a modified version of the Cosmic Linear Anisotropy Solving System (CLASS). The project introduces the Unified Saturation Universe theory, which models the early universe as a macroscopic quantum fluid rather than a collection of discrete particles.By modifying the core C-based Boltzmann equations within CLASS, this model simulates how quantum pressure and density saturation points affect the Cosmic Microwave Background (CMB) and the growth of large-scale structures.🛠 Features & ModificationsTo implement this theory, I performed the following modifications to the public CLASS source code:
+
 background.c: Modified the background evolution to include a custom energy-momentum tensor for the quantum fluid, altering the Hubble expansion history $H(z)$.
 
 perturbations.c: Implemented scale-dependent sound speed $c_s(k)$ to model quantum pressure. This effectively suppresses small-scale power, addressing the "Missing Satellites Problem" in standard $\Lambda$CDM.
