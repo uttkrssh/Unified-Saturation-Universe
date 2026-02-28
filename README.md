@@ -18,6 +18,6 @@ make class
 # Run with the quantum fluid parameter file
 ./class explanatory_quantum_fluid.ini
 
-📊 ResultsThe following plots illustrate the difference between the standard $\Lambda$CDM model and the Unified Saturation model:CMB Power Spectrum: Notable shifts in the higher-order acoustic peaks.Matter Power Spectrum: Significant suppression of power at $k > 10 \text{ h/Mpc}$.
+📊 Results: The following plots illustrate the difference between the standard $\Lambda$CDM model and the Unified Saturation model:CMB Power Spectrum: Notable shifts in the higher-order acoustic peaks.Matter Power Spectrum: Significant suppression of power at $k > 10 \text{ h/Mpc}$.
 
 📚 ReferencesCLASS: Cosmic Linear Anisotropy Solving System - Blas, Lesgourgues, and Tram (2011)Unified Saturation Model - Independent Research Paper (2025)
