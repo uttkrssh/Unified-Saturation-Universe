@@ -1,0 +1,28 @@
+import os
+import subprocess
+
+# Your established Quantum Fluid parameters for the baseline
+# Viscosity and Alpha are set to near-zero to act as 'Standard'
+ini_content = """
+h = 0.6732
+omega_b = 0.02237
+omega_cdm = 1e-15
+Omega_Lambda = 0.0
+A_s = 2.1e-9
+n_s = 0.965
+tau_reio = 0.054
+gauge = newtonian
+output = tCl
+qf_A = 0.6847
+qf_B = 0.3153
+qf_alpha = 1e-9
+qf_viscosity = 1e-9
+root = output_sweep/lcdm_baseline_
+"""
+
+with open("baseline.ini", "w") as f:
+    f.write(ini_content)
+
+print("🚀 Generating Standard Baseline File...")
+subprocess.run(["./class", "baseline.ini"], check=True)
+print("✅ Baseline created. Now you can run the Ranker!")
